@@ -17,6 +17,8 @@ async def update_data(level, user, guild):
         level[guild][str(user.name)]["experience"] = 0
         level[guild][str(user.name)]["level"] = 1
         level[guild][str(user.name)]["name"] = user.name
+        level[guild][str(user.name)]["game win"] = 0
+        level[guild][str(user.name)]["game lose"] = 0
 
 
 async def add_experience(level, user, exp, guild):

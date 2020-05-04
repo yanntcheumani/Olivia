@@ -8,5 +8,5 @@ setup(
     license='MIT License',
     author='Speedy',
     author_email='',
-    description='', install_requires=['discord', 'youtube_dl']
+    description='', install_requires=['discord', 'youtube_dl', 'colorama']
 )
